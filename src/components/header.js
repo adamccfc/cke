@@ -21,7 +21,8 @@ const Header = ({ siteTitle }) => (
             color: '#222222',
             textDecoration: 'none',
             padding: '10px',
-            border: '2px solid #222222'
+            border: '3px solid #222222',
+            fontWeight: '700'
           }}
         >
           {siteTitle}
