@@ -1,0 +1,12 @@
+.main-menu {
+  float: right;
+  padding: 20px 0;
+
+  a {
+    padding-right: 20px;
+
+    &:last-of-type {
+      padding-right: 0;
+    }
+  }
+}

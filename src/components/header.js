@@ -27,6 +27,10 @@ const Header = ({ siteTitle }) => (
       >
         {siteTitle}
       </Link>
+      <nav className="main-menu">
+        <Link to="/">Home</Link>
+        <Link to="/page-2/">Page 2</Link>
+      </nav>
     </div>
   </div>
 )
