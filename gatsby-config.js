@@ -31,6 +31,12 @@ module.exports = {
         pathToConfigModule: `src/utils/typography.js`,
       },
     },
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        precision: 8,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
