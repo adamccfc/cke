@@ -31,6 +31,8 @@ const IndexPage = (props) => (
         <div className="gallery">
           <div className="item"><Img fluid={props.data.imageOne.childImageSharp.fluid} /></div>
           <div className="item"><Img fluid={props.data.imageTwo.childImageSharp.fluid} /></div>
+          <div className="item"><Img fluid={props.data.imageThree.childImageSharp.fluid} /></div>
+          <div className="item"><Img fluid={props.data.imageFour.childImageSharp.fluid} /></div>
         </div>
       </Container>
     </div>
@@ -54,7 +56,13 @@ export const pageQuery = graphql`
     imageOne: file(relativePath: { eq: "providers/DescoEurope.png" }) {
       ...fluidImage
     }
-    imageTwo: file(relativePath: { eq: "providers/DescoEurope.png" }) {
+    imageTwo: file(relativePath: { eq: "providers/APR-Logo.jpg" }) {
+      ...fluidImage
+    }
+    imageThree: file(relativePath: { eq: "providers/exmel.png" }) {
+      ...fluidImage
+    }
+    imageFour: file(relativePath: { eq: "providers/high_torque.png" }) {
       ...fluidImage
     }
   }
