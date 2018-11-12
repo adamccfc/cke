@@ -27,7 +27,7 @@ const IndexPage = (props) => (
     }}>
       <Container>
         <h2>Certified agent</h2>
-        <p>Being a certified agent allows us to supply you with products from the following companies.</p>
+        <p>Being a certified agent allows us to supply you with products for the following companies.</p>
         <div className="gallery">
           <div className="item"><Img fluid={props.data.imageOne.childImageSharp.fluid} /></div>
           <div className="item"><Img fluid={props.data.imageTwo.childImageSharp.fluid} /></div>
