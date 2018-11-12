@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
 
 import Layout from '../components/layout'
+import Container from '../components/container';
 
 const SecondPage = () => (
   <Layout>
@@ -11,9 +12,11 @@ const SecondPage = () => (
       <title>Page 2 | CKe</title>
       <link rel="canonical" href="http://mysite.com/example" />
     </Helmet>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Container>
+      <h1>Hi from the second page</h1>
+      <p>Welcome to page 2</p>
+      <Link to="/">Go back to the homepage</Link>
+    </Container>
   </Layout>
 )
 
