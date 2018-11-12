@@ -8,7 +8,7 @@ const SecondPage = () => (
   <Layout>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>Page 2 | CKE</title>
+      <title>Page 2 | CKe</title>
       <link rel="canonical" href="http://mysite.com/example" />
     </Helmet>
     <h1>Hi from the second page</h1>
