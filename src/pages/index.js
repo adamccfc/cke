@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
+import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import Container from '../components/container'
-import Image from '../components/image'
 
-const IndexPage = () => (
+const IndexPage = (props) => (
   <Layout>
     <Helmet>
       <meta charSet="utf-8" />
@@ -29,10 +29,8 @@ const IndexPage = () => (
         <h2>Certified Agent</h2>
         <p>CKe are a certified agent for the following companies.</p>
         <div className="gallery">
-          <div className="item"><Image></Image></div>
-          <div className="item"><Image></Image></div>
-          <div className="item"><Image></Image></div>
-          <div className="item"><Image></Image></div>
+          <div className="item"><Img fluid={props.data.imageOne.childImageSharp.fluid} /></div>
+          <div className="item"><Img fluid={props.data.imageTwo.childImageSharp.fluid} /></div>
         </div>
       </Container>
     </div>
@@ -40,3 +38,24 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+export const fluidImage = graphql`
+fragment fluidImage on File {
+  childImageSharp {
+    fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+    }
+  }
+}
+`;
+
+export const pageQuery = graphql`
+  query {
+    imageOne: file(relativePath: { eq: "providers/DescoEurope.png" }) {
+      ...fluidImage
+    }
+    imageTwo: file(relativePath: { eq: "providers/DescoEurope.png" }) {
+      ...fluidImage
+    }
+  }
+`
