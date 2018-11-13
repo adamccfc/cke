@@ -22,17 +22,19 @@ const IndexPage = (props) => (
       <Link to="/page-2/">Go to page 2</Link>
     </Container>
     <div style={{
-      backgroundColor: '#DCECF8',
+      backgroundColor: '#F5F8FB',
       padding: '20px 0'
     }}>
       <Container>
-        <h2>Certified agent</h2>
-        <p>Being a certified agent allows us to supply you with products for the following companies.</p>
-        <div className="gallery">
-          <div className="item"><Img fluid={props.data.imageOne.childImageSharp.fluid} /></div>
-          <div className="item"><Img fluid={props.data.imageTwo.childImageSharp.fluid} /></div>
-          <div className="item"><Img fluid={props.data.imageThree.childImageSharp.fluid} /></div>
-          <div className="item"><Img fluid={props.data.imageFour.childImageSharp.fluid} /></div>
+        <div style={{ textAlign: 'center'}}>
+          <h2>Certified agent</h2>
+          <p>Being a certified agent allows us to supply you with products for the following companies.</p>
+          <div className="gallery">
+            <div className="item"><Img fluid={props.data.imageOne.childImageSharp.fluid} /></div>
+            <div className="item"><Img fluid={props.data.imageTwo.childImageSharp.fluid} /></div>
+            <div className="item"><Img fluid={props.data.imageThree.childImageSharp.fluid} /></div>
+            <div className="item"><Img fluid={props.data.imageFour.childImageSharp.fluid} /></div>
+          </div>
         </div>
       </Container>
     </div>
