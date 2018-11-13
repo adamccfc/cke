@@ -8,12 +8,18 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px 3px rgba(212, 231, 250, 0.65);
+    filter: grayscale(1);
+    transition: filter 500ms linear;
+
+    &:hover {
+      filter: none;
+    }
 
     .gatsby-image-wrapper {
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 100%;;
+      height: 100%;
 
       img {
         object-fit: contain !important;
