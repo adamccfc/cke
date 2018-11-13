@@ -23,18 +23,17 @@ const IndexPage = (props) => (
     </Container>
     <div style={{
       backgroundColor: '#F5F8FB',
-      padding: '20px 0'
+      padding: '20px 0',
+      textAlign: 'center'
     }}>
       <Container>
-        <div style={{ textAlign: 'center'}}>
-          <h2>Certified agent</h2>
-          <p>Being a certified agent allows us to supply you with products for the following companies.</p>
-          <div className="gallery">
-            <div className="item"><Img fluid={props.data.imageOne.childImageSharp.fluid} /></div>
-            <div className="item"><Img fluid={props.data.imageTwo.childImageSharp.fluid} /></div>
-            <div className="item"><Img fluid={props.data.imageThree.childImageSharp.fluid} /></div>
-            <div className="item"><Img fluid={props.data.imageFour.childImageSharp.fluid} /></div>
-          </div>
+        <h2>Certified agent</h2>
+        <p>Being a certified agent allows us to supply you with products for the following companies.</p>
+        <div className="gallery">
+          <div className="item"><Img fluid={props.data.imageOne.childImageSharp.fluid} /></div>
+          <div className="item"><Img fluid={props.data.imageTwo.childImageSharp.fluid} /></div>
+          <div className="item"><Img fluid={props.data.imageThree.childImageSharp.fluid} /></div>
+          <div className="item"><Img fluid={props.data.imageFour.childImageSharp.fluid} /></div>
         </div>
       </Container>
     </div>
