@@ -1,7 +1,14 @@
 .button {
-  padding: 5px 10px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  text-decoration: none;
 
   &--primary {
-    background-color: red;
+    background-color: $brand-primary;
+    color: $white;
+
+    &:hover {
+      background-color: darken($brand-primary, 10%);
+    }
   }
 }
