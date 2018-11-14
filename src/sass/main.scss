@@ -1,5 +1,9 @@
-* {
-  box-sizing: border-box;
-}
+// Base
+@import 'base/vars';
+@import 'base/global';
 
+// Layout
 @import 'layout/gallery';
+
+// Components
+@import 'components/buttons';

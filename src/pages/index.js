@@ -16,10 +16,10 @@ const IndexPage = (props) => (
     <Container>
       <h1>Serving electronic manufacturing</h1>
       <p>We offer a range specialist services within the electronic manufacturing sector.</p>
+      <Link to="/services/" className="button button--primary">Find out more</Link>
       <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
         {/* <Image /> */}
       </div>
-      <Link to="/page-2/">Go to page 2</Link>
     </Container>
     <div style={{
       backgroundColor: '#F5F8FB',
