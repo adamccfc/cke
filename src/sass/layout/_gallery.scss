@@ -1,0 +1,30 @@
+.gallery {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+
+  .item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 3px rgba(212, 231, 250, 0.65);
+    filter: grayscale(1);
+    transition: filter 500ms linear;
+
+    &:hover {
+      filter: none;
+    }
+
+    .gatsby-image-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+
+      img {
+        object-fit: contain !important;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
