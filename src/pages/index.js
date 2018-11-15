@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import Img from 'gatsby-image'
-import vars from '../sass/base/_vars.scss'
 
 import Layout from '../components/layout'
 import Container from '../components/container'
@@ -27,7 +26,7 @@ const IndexPage = (props) => (
       </div>
     </Container>
     <div style={{
-      backgroundColor: vars.brandPrimary,
+      backgroundColor: '#F5F8FB',
       padding: '20px 0',
       textAlign: 'center'
     }}>
