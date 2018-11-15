@@ -4,3 +4,7 @@ $black: hsla(0,0%,0%,0.8);
 
 // Brand colours
 $brand-primary: #1072BD;
+
+:export {
+  brandPrimary: $brand-primary;
+}
