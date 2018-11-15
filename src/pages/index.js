@@ -14,11 +14,15 @@ const IndexPage = (props) => (
       <link rel="canonical" href="http://mysite.com/example" />
     </Helmet>
     <Container>
-      <h1>Serving electronic manufacturing</h1>
-      <p>We offer a range specialist services within the electronic manufacturing sector.</p>
-      <Link to="/services/" className="button button--primary">Find out more</Link>
-      <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-        {/* <Image /> */}
+      <div css={{
+        marginBottom: `20px`,
+        '@media (min-width: 768px)': {
+          width: `75%`
+        },
+      }}>
+        <h1>Serving electronic manufacturing</h1>
+        <p>We offer a range specialist services within the electronic manufacturing sector.</p>
+        <Link to="/services/" className="button button--primary">Find out more</Link>
       </div>
     </Container>
     <div style={{
