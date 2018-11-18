@@ -1,5 +1,4 @@
 import React from 'react'
-import Container from './container';
 
 const Footer = () => (
   <div
@@ -8,14 +7,21 @@ const Footer = () => (
       fontSize: '14px'
     }}
   >
-    <Container>
+    <div style={{
+      maxWidth: 800,
+      margin: '0 auto',
+      padding: '10px 0'
+    }}>
       <p style={{
         textAlign: 'right',
-        margin: 0
+        margin: 0,
+        color: '#FFFFFF'
       }}>
-        Designed and developed by <a href="http://www.adammorgan.wales">Adam Morgan</a>.
+        Designed and developed by <a href="http://www.adammorgan.wales" style={{
+          color: '#FFFFFF'
+        }}>Adam Morgan</a>.
       </p>
-    </Container>
+    </div>
   </div>
 )
 
