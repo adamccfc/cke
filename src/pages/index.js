@@ -17,12 +17,19 @@ const IndexPage = (props) => (
       <div css={{
         marginBottom: `20px`,
         '@media (min-width: 768px)': {
-          width: `75%`
+          width: `80%`
         },
       }}>
+        <span css={{
+          textTransform: 'uppercase',
+          fontSize: '12px',
+          fontWeight: '600',
+          color: '#1072BD'
+        }}>What we do</span>
         <h1>Serving electronic manufacturing</h1>
         <p>We offer a range specialist services within the electronic manufacturing sector.</p>
         <Link to="/services/" className="button button--primary">Find out more</Link>
+        <Link to="/contact/" className="button button--ghost">Get in touch</Link>
       </div>
     </Container>
     <div style={{
@@ -32,7 +39,7 @@ const IndexPage = (props) => (
     }}>
       <Container>
         <h2>Certified agent</h2>
-        <p>Being a certified agent allows us to supply you with products for the following companies.</p>
+        <p>Being a certified agent allows us to supply you with products from the following companies.</p>
         <div className="gallery">
           <div className="item"><Img fluid={props.data.imageOne.childImageSharp.fluid} /></div>
           <div className="item"><Img fluid={props.data.imageTwo.childImageSharp.fluid} /></div>

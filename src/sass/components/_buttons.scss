@@ -1,14 +1,44 @@
 .button {
+  display: block;
+  text-align: center;
   padding: 10px 30px;
   border-radius: 30px;
   text-decoration: none;
 
+  @media screen and (min-width: 401px) {
+    display: inline-block;
+  }
+
   &--primary {
     background-color: $brand-primary;
     color: $white;
+    border: 1px solid $brand-primary;
+    transition: all 0.5s linear;
 
     &:hover {
       background-color: darken($brand-primary, 10%);
+      border: 1px solid darken($brand-primary, 10%);
+    }
+  }
+
+  &--ghost {
+    background-color: $white;
+    color: $brand-primary;
+    border: 1px solid $brand-primary;
+    transition: all 0.5s linear;
+
+    &:hover {
+      background-color: $brand-primary;
+      color: $white;
+    }
+  }
+
+  & + .button {
+    margin-top: 20px;
+
+    @media screen and (min-width: 401px) {
+      margin-top: 0;
+      margin-left: 20px;
     }
   }
 }
