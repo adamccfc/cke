@@ -5,7 +5,6 @@ import Container from './container';
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      marginBottom: '1.45rem',
       paddingTop: 20
     }}
   >
@@ -14,11 +13,12 @@ const Header = ({ siteTitle }) => (
         to="/"
         style={{
           display: 'inline-block',
-          color: '#222222',
+          color: '#1072BD',
           textDecoration: 'none',
           padding: '10px',
           border: '3px solid #222222',
-          fontWeight: '700'
+          fontWeight: '700',
+          fontSize: '2em'
         }}
       >
         {siteTitle}
