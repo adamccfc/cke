@@ -21,10 +21,15 @@ const IndexPage = (props) => (
         },
       }}>
         <span css={{
+          display: 'inline-block',
           textTransform: 'uppercase',
           fontSize: '12px',
           fontWeight: '600',
-          color: '#1072BD'
+          color: '#1072BD',
+          backgroundColor: '#F5F8FB',
+          padding: '10px 15px',
+          borderRadius: '30px',
+          marginBottom: '10px'
         }}>What we do</span>
         <h1>Serving electronic manufacturing</h1>
         <p>We offer a range specialist services within the electronic manufacturing sector.</p>
