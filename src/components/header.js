@@ -15,8 +15,8 @@ const Header = ({ siteTitle }) => (
           display: 'inline-block',
           color: '#1072BD',
           textDecoration: 'none',
-          padding: '10px',
-          border: '3px solid #222222',
+          padding: '10px 20px',
+          border: '3px solid #1072BD',
           fontWeight: '700',
           fontSize: '2em'
         }}
