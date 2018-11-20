@@ -33,7 +33,7 @@ const IndexPage = (props) => (
         }}>What we do</span>
         <h1>Serving electronic manufacturing</h1>
         <p>We offer a range specialist services within the electronic manufacturing sector.</p>
-        <Link to="/services/" className="button button--primary">Find out more</Link>
+        <Link to="/advanced-package-rework/" className="button button--primary">Find out more</Link>
         <Link to="/contact/" className="button button--ghost">Get in touch</Link>
       </div>
     </Container>

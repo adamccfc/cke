@@ -9,11 +9,11 @@ const SecondPage = () => (
   <Layout>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>Services | CKe</title>
+      <title>APR - Advanced Package Rework | CKe</title>
       <link rel="canonical" href="http://mysite.com/example" />
     </Helmet>
     <Container>
-      <h1>Services</h1>
+      <h1>APR - Advanced Package Rework</h1>
       <Link to="/">Go back to the homepage</Link>
     </Container>
   </Layout>
