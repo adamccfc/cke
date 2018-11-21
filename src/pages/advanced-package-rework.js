@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import Container from '../components/container';
 
-const SecondPage = () => (
+const AdvancedPackageRework = () => (
   <Layout>
     <Helmet>
       <meta charSet="utf-8" />
@@ -32,4 +32,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default AdvancedPackageRework
