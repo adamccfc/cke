@@ -38,7 +38,7 @@ const IndexPage = (props) => (
       </div>
     </Container>
     <div style={{
-      backgroundColor: '#F5F8FB',
+      backgroundColor: '#FAFAFB',
       padding: '20px 0',
       textAlign: 'center'
     }}>
