@@ -23,6 +23,10 @@ const Header = ({ siteTitle }) => (
       >
         {siteTitle}
       </Link>
+      <nav class="main-menu">
+        <Link to="/advanced-package-rework">APR</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
     </Container>
   </div>
 )
