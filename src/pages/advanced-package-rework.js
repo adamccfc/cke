@@ -13,7 +13,8 @@ const SecondPage = () => (
     </Helmet>
     <Container>
       <section>
-        <h1>APR - Advanced Package Rework</h1>
+        <div className="tagline">APR</div>
+        <h1>Advanced Package Rework</h1>
         <p>CKe offer a range of services related to Advanced Package Rework systems.</p>
       </section>
       <section>
