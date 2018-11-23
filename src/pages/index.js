@@ -20,17 +20,7 @@ const IndexPage = (props) => (
           width: `80%`
         },
       }}>
-        <span css={{
-          display: 'inline-block',
-          textTransform: 'uppercase',
-          fontSize: '12px',
-          fontWeight: '600',
-          color: '#1072BD',
-          backgroundColor: '#F5F8FB',
-          padding: '10px 15px',
-          borderRadius: '30px',
-          marginBottom: '10px'
-        }}>What we do</span>
+        <div className="tagline">What we do</div>
         <h1>Serving electronic manufacturing</h1>
         <p>We offer a range specialist services within the electronic manufacturing sector.</p>
         <Link to="/advanced-package-rework/" className="button button--primary">Find out more</Link>

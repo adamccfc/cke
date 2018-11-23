@@ -2,11 +2,25 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #364D65;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $black;
   text-transform: uppercase;
 }
 
 p {
-  color: #83898A;
+  color: $grey;
+}
+
+a {
+  color: $brand-primary;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
