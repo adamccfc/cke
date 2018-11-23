@@ -28,15 +28,15 @@ const Contact = () => (
           data-netlify="true"
           netlify-honeypot="bot-field"
         >
-          <div>
+          <div className="form__item">
             <label>Name:</label>
             <input type="text" name="name" />
           </div>
-          <div>
+          <div className="form__item">
             <label>Email:</label>
             <input type="email" name="email" />
           </div>
-          <div>
+          <div className="form__item">
             <label>Message:</label>
             <textarea name="message"></textarea>
           </div>
