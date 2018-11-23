@@ -1,6 +1,5 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Img from "gatsby-image"
 
 import Layout from '../components/layout'
 import Container from '../components/container';
@@ -35,18 +34,3 @@ const AdvancedPackageRework = () => (
 )
 
 export default AdvancedPackageRework
-
-export const query = graphql`
-  query {
-    file(relativePath: { eq: "images/icons/svg/012-industrial.svg" }) {
-      childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fixed(width: 125, height: 125) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-  }
-`
-
