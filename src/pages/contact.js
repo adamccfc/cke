@@ -14,34 +14,41 @@ const Contact = () => (
     <Container>
       <div className="tagline">Contact</div>
       <h1>Get in touch</h1>
-      <form
-        name="contact-form"
-        method="post"
-        action="/thanks"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-      >
-        <div>
-          <label>
-            Name:
-            <input type="text" name="name" />
-          </label>
-        </div>
-        <div>
-          <label>
-            Email:
-            <input type="email" name="email" />
-          </label>
-        </div>
-        <div>
-          <label>
-            Message:
-            <textarea name="message"></textarea>
-          </label>
-        </div>
-        <button>Send</button>
-      </form>
     </Container>
+    <div style={{
+      backgroundColor: '#FAFAFB',
+      padding: '20px 0'
+    }}>
+      <Container>
+        <form
+          name="contact-form"
+          method="post"
+          action="/thanks"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+        >
+          <div>
+            <label>
+              Name:
+              <input type="text" name="name" />
+            </label>
+          </div>
+          <div>
+            <label>
+              Email:
+              <input type="email" name="email" />
+            </label>
+          </div>
+          <div>
+            <label>
+              Message:
+              <textarea name="message"></textarea>
+            </label>
+          </div>
+          <button>Send</button>
+        </form>
+      </Container>
+    </div>
   </Layout>
 )
 
