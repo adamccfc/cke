@@ -14,6 +14,7 @@ const Contact = () => (
     <Container>
       <div className="tagline">Contact</div>
       <h1>Get in touch</h1>
+      <p>If you would like to get in touch with regards to any of our services or products fill out the form below and we will get in touch.</p>
     </Container>
     <div style={{
       backgroundColor: '#FAFAFB',
