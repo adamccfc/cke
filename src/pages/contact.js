@@ -40,7 +40,7 @@ const Contact = () => (
             <label>Message:</label>
             <textarea name="message"></textarea>
           </div>
-          <button>Send</button>
+          <button class="button button--primary">Send</button>
         </form>
       </Container>
     </div>
