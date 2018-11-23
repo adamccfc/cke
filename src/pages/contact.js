@@ -29,22 +29,16 @@ const Contact = () => (
           netlify-honeypot="bot-field"
         >
           <div>
-            <label>
-              Name:
-              <input type="text" name="name" />
-            </label>
+            <label>Name:</label>
+            <input type="text" name="name" />
           </div>
           <div>
-            <label>
-              Email:
-              <input type="email" name="email" />
-            </label>
+            <label>Email:</label>
+            <input type="email" name="email" />
           </div>
           <div>
-            <label>
-              Message:
-              <textarea name="message"></textarea>
-            </label>
+            <label>Message:</label>
+            <textarea name="message"></textarea>
           </div>
           <button>Send</button>
         </form>
