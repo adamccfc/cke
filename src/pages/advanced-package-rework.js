@@ -9,7 +9,6 @@ const AdvancedPackageRework = () => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>APR - Advanced Package Rework | CKe</title>
-      <link rel="canonical" href="http://mysite.com/example" />
     </Helmet>
     <Container>
       <section>

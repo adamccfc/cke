@@ -9,7 +9,6 @@ const Contact = () => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>Contact Us | CKe</title>
-      <link rel="canonical" href="http://mysite.com/example" />
     </Helmet>
     <Container>
       <div className="tagline">Contact</div>

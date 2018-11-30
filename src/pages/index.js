@@ -11,7 +11,6 @@ const IndexPage = (props) => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>Serving Electronic Manufacturing | CKe</title>
-      <link rel="canonical" href="http://mysite.com/example" />
     </Helmet>
     <Container>
       <div css={{

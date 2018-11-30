@@ -9,7 +9,6 @@ const Thanks = () => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>Thanks | CKe</title>
-      <link rel="canonical" href="http://mysite.com/example" />
     </Helmet>
     <Container>
       <h1>Thank you!</h1>

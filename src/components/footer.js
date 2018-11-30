@@ -17,7 +17,7 @@ const Footer = () => (
         margin: 0,
         color: '#FFFFFF'
       }}>
-        Designed and developed by <a href="http://www.adammorgan.wales" style={{
+        Designed and developed by <a href="https://www.adammorgan.wales" style={{
           color: '#FFFFFF'
         }}>Adam Morgan</a>.
       </p>
