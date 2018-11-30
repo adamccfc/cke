@@ -21,13 +21,7 @@ const Contact = () => (
       padding: '20px 0'
     }}>
       <Container>
-        <form
-          name="contact-form"
-          method="post"
-          action="/thanks"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
-        >
+        <form name="contact-form" method="POST" action="/thanks" netlify>
           <div className="form__item">
             <label>Name:</label>
             <input type="text" name="name" />
