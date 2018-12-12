@@ -27,7 +27,7 @@ const AdvancedPackageRework = (props) => (
         <section css={{
           display: 'grid',
           gridGap: '50px',
-          gridTemplateColumns: '1fr 2fr'
+          gridTemplateColumns: '1fr 2.5fr'
         }}>
           <div>
             <Img fluid={props.data.imageOne.childImageSharp.fluid} />
@@ -43,7 +43,7 @@ const AdvancedPackageRework = (props) => (
       <section css={{
         display: 'grid',
         gridGap: '50px',
-        gridTemplateColumns: '2fr 1fr',
+        gridTemplateColumns: '2.5fr 1fr',
         padding: '20px 0'
       }}>
         <div>
@@ -63,7 +63,7 @@ const AdvancedPackageRework = (props) => (
         <section css={{
           display: 'grid',
           gridGap: '50px',
-          gridTemplateColumns: '1fr 2fr'
+          gridTemplateColumns: '1fr 2.5fr'
         }}>
           <div>
             <Img fluid={props.data.imageThree.childImageSharp.fluid} />
