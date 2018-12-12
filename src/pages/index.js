@@ -47,16 +47,6 @@ const IndexPage = (props) => (
 
 export default IndexPage
 
-export const fluidImage = graphql`
-  fragment fluidImage on File {
-    childImageSharp {
-      fluid(maxWidth: 1000) {
-        ...GatsbyImageSharpFluid_noBase64
-      }
-    }
-  }
-`
-
 export const pageQuery = graphql`
   query {
     imageOne: file(relativePath: { eq: "providers/DescoEurope.png" }) {
