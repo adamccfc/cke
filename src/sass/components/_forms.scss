@@ -3,12 +3,33 @@ form {
 
   label {
     display: block;
+    padding: 0 30px 10px;
   }
 
   input[type="text"],
   input[type="email"],
   textarea {
     width: 100%;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 1px solid $brand-primary;
+    transition: border 1s ease;
+
+    &:focus {
+      outline: none;
+      border: 1px solid $black;
+    }
+  }
+
+  textarea {
+    min-height: 200px;
+    padding: 20px 30px;
+  }
+
+  button {
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
