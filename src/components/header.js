@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Container from './container';
 
 const Header = ({ siteTitle }) => (
-  <div
+  <header
     style={{
       paddingTop: 20
     }}
@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/contact">Contact</Link>
       </nav>
     </Container>
-  </div>
+  </header>
 )
 
 export default Header

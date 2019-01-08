@@ -30,14 +30,14 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div
+        <main
           style={{
             margin: '0',
             paddingTop: 0,
           }}
         >
           {children}
-        </div>
+        </main>
         <Footer />
       </>
     )}

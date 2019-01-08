@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Footer = () => (
-  <div
+  <footer
     style={{
       backgroundColor: '#1072BD',
       fontSize: '14px'
@@ -22,7 +22,7 @@ const Footer = () => (
         }}>Adam Morgan</a>.
       </p>
     </div>
-  </div>
+  </footer>
 )
 
 export default Footer
