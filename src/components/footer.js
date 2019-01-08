@@ -10,7 +10,7 @@ const Footer = () => (
     <div style={{
       maxWidth: 800,
       margin: '0 auto',
-      padding: '10px 20px'
+      padding: '20px'
     }}>
       <p style={{
         textAlign: 'right',
