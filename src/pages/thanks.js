@@ -11,7 +11,9 @@ const Thanks = () => (
       <title>Thanks | CKe</title>
     </Helmet>
     <Container>
+      <div className="tagline">Contact</div>
       <h1>Thank you!</h1>
+      <p>We will try go get in touch within 48 hours.</p>
     </Container>
   </Layout>
 );
