@@ -9,8 +9,13 @@
     display: inline-block;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     text-decoration: none;
+  }
+
+  &:focus {
+    outline: none;
   }
 
   &--primary {
@@ -19,7 +24,8 @@
     border: 1px solid $brand-primary;
     transition: all 0.5s linear;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: darken($brand-primary, 10%);
       border: 1px solid darken($brand-primary, 10%);
     }
@@ -31,7 +37,8 @@
     border: 1px solid $brand-primary;
     transition: all 0.5s linear;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $brand-primary;
       color: $white;
     }
