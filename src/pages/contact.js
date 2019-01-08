@@ -20,7 +20,7 @@ const Contact = () => (
       padding: '20px 0'
     }}>
       <Container>
-        <form name="contact-form" method="POST" action="/thanks" netlify>
+        <form name="contact-form" method="POST" action="/thanks" netlify="true">
           <div className="form__item">
             <label>Name:</label>
             <input type="text" name="name" />
